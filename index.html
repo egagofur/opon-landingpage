@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio cinta</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+</head>
+<style>
+  * {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+  }
+</style>
+
+<body>
+  <main class="h-screen w-full">
+    <div id="home" class="bg-[#0A0919] h-5/6">
+      <header class="px-24 fixed flex justify-center gap-12 items-center w-full py-4">
+        <nav>
+          <ul class="flex gap-10 text-white text-sm font-bold">
+            <li><a href="#home" class="hover:opacity-80">Home</a></li>
+            <li><a href="#about" class="hover:opacity-80">About</a></li>
+            <li><a href="#project" class="hover:opacity-80">Project</a></li>
+            <li><a href="#skills" class="hover:opacity-80">Skills</a></li>
+            <li><a href="#contact" class="hover:opacity-80">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="px-24 flex flex-col justify-center items-center h-full">
+        <h1 class="text-6xl font-bold text-white text-center">
+          Hi, I'm Cinta
+        </h1>
+        <p class="text-2xl text-white text-center">
+          I'm a Frontend Developer
+        </p>
+        <button class="bg-[#00B3CC] text-white px-10 py-3 rounded-full mt-10 hover:opacity-80 ease-in-out">
+          <a href="#contact">Contact Me</a>
+        </button>
+      </section>
+    </div>
+    <div class="bg-[#100F2E] h-1/6 flex justify-center items-center">
+      <div class="flex gap-10 items-center">
+        <a href="">
+          <img src="https://img.icons8.com/color-glass/48/null/github--v1.png" class="w-16 hover:scale-125 hover:ease-in-out" alt="" />
+        </a>
+        <a href="">
+          <img src="https://img.icons8.com/color/48/null/linkedin.png" class="w-16 hover:scale-125 hover:ease-in-out" alt="" />
+        </a>
+        <a href="">
+          <img src="https://img.icons8.com/nolan/64/instagram-new.png" class="hover:scale-125 hover:ease-in-out" />
+        </a>
+      </div>
+    </div>
+
+    <!-- about -->
+    <section id="about" class="h-screen w-full bg-[#100F2E] flex items-center">
+      <div class="flex flex-col max-w-4xl mx-auto gap-4">
+        <span class="pb-10">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 0L60 30L30 60L0 30L30 0Z" fill="#D83A00" />
+          </svg>
+        </span>
+        <h1 class="text-4xl font-bold text-white">About Me</h1>
+        <span class="pb-10"><svg width="80" height="3" viewBox="0 0 80 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="80" height="3" rx="1.5" fill="#1BE069" />
+          </svg>
+        </span>
+        <p class="text-gray-100 pb-5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          malesuada, odio ac maximus ullamcorper, elit orci molestie ante, sit
+          amet vulputate ligula ipsum varius neque. Quisque pellentesque
+          ligula ac eleifend consequat. Aliquam egestas vehicula nisl, id
+          condimentum quam suscipit in.
+        </p>
+
+        <div class="flex items-center text-white font-bold text-l space-x-8">
+          <img src="./assets/User Icon.svg" alt="" />
+          <span>Name</span>
+          <span>:</span>
+          <p>Cinta Rahmaliya Syhifa</p>
+        </div>
+
+        <div class="flex items-center text-white font-bold text-l space-x-8">
+          <img src="./assets/Phone Icon.svg" alt="" />
+          <span>Phone</span>
+          <span>:</span>
+          <p>+62 8565-5550-1860</p>
+        </div>
+
+        <div class="flex items-center text-white font-bold text-l space-x-8">
+          <img src="./assets/Mail Icon.svg" alt="" />
+          <span>Email</span>
+          <span>:</span>
+          <p>cintarahmaliyashifa@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- project -->
+    <section id="project" class="h-screen w-full bg-[#100F2E] flex items-center">
+      <div class="mx-auto flex flex-col">
+        <span class="pb-10">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 0L60 30L30 60L0 30L30 0Z" fill="#D83A00" />
+          </svg>
+        </span>
+        <h1 class="text-4xl font-bold text-white">My Projects</h1>
+        <span class="pb-10"><svg width="80" height="3" viewBox="0 0 80 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="80" height="3" rx="1.5" fill="#1BE069" />
+          </svg>
+        </span>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+              <img class="rounded-t-lg" src="https://images.unsplash.com/photo-1617854818583-09e7f077a156?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" alt="" />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Read more
+                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+              <img class="rounded-t-lg" src="https://images.unsplash.com/photo-1617854818583-09e7f077a156?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" alt="" />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Read more
+                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+              <img class="rounded-t-lg" src="https://images.unsplash.com/photo-1617854818583-09e7f077a156?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" alt="" />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Read more
+                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skiils -->
+    <section id="skills" class="h-screen w-full bg-[#100F2E] flex items-center">
+      <div class="flex flex-col mx-auto">
+        <span class="pb-10">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 0L60 30L30 60L0 30L30 0Z" fill="#D83A00" />
+          </svg>
+        </span>
+        <h1 class="text-4xl font-bold text-white">My Skills</h1>
+        <span class="pb-10"><svg width="80" height="3" viewBox="0 0 80 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="80" height="3" rx="1.5" fill="#1BE069" />
+          </svg>
+        </span>
+        <div class="mx-auto grid grid-cols-2 md:grid-cols-6 gap-9">
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-6 hover:scale-125 ease-in-out duration-75 ">
+            <img class="w-28" src="./assets/html.png" alt="">
+          </div>
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-6 hover:scale-125 ease-in-out duration-75 ">
+            <img class="w-28" src="./assets/css.png" alt="">
+          </div>
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-6 hover:scale-125 ease-in-out duration-75 ">
+            <img class="w-28" src="./assets/javascript.png" alt="">
+          </div>
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-6 hover:scale-125 ease-in-out duration-75 ">
+            <img class="w-28" src="./assets/java.png" alt="">
+          </div>
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-6 hover:scale-125 ease-in-out duration-75 ">
+            <img class="w-28" src="./assets/github.png" alt="">
+          </div>
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-6 hover:scale-125 ease-in-out duration-75 ">
+            <img class="w-28" src="./assets/php.png" alt="">
+          </div>
+        </div>
+
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="w-full h-screen">
+      <div class="h-4/6 bg-[#0A0919] items-center">
+        <div class="flex flex-col max-w-4xl mx-auto gap-4 text-white pt-24">
+          <h1 class="text-4xl font-bold text-white">Get in Touch</h1>
+          <span class="pb-10"><svg width="80" height="3" viewBox="0 0 80 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="80" height="3" rx="1.5" fill="#1BE069" />
+            </svg>
+          </span>
+          <p>Have Any Project or Interested to Work with Me?</p>
+        </div>
+        <div class="flex space-x-16 justify-center pt-28">
+          <span>
+            <a href=""> <img src="./assets/Phone Btn.svg" alt="" /></a>
+          </span>
+          <span>
+            <a href=""> <img src="./assets/WhatsApp Btn.svg" alt="" /></a>
+          </span>
+          <span>
+            <a href="">
+              <img src="./assets/Mail Btn.svg" alt="" />
+            </a>
+          </span>
+        </div>
+
+        <form class="px-72 py-16">
+          <label for=" default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+          <div class="relative">
+            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+              <svg fill="none" class="w-5 h-5 text-gray-500 dark:text-gray-400" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z"></path>
+              </svg>
+            </div>
+            <input type="text" name="pesan" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Send message for mee..." required>
+            <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-8 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send</button>
+          </div>
+        </form>
+      </div>
+      <div class="h-2/6 w-full bg-[#100F2E]">
+        <div class="flex py-28 justify-between max-w-4xl mx-auto">
+          <h2 class="text-4xl font-bold text-[#00B3CC] italic select-none">
+            .CA
+          </h2>
+          <span>
+            <img src="./assets/Thanks for UR Scrolling.svg" alt="" />
+            <img src="./assets/Rectangle 15.svg" alt="" />
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
